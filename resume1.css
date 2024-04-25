@@ -1,0 +1,118 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(85,85,83);
+    --light_grey: rgb(85,85,83);
+    --dark_green: #178143;
+
+}
+.table1{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: min-content;
+    
+}
+.table1 td,
+.table1 {
+  border: 1.1px solid;
+  border-collapse: collapse;
+}
+.table1 td {
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    background-color: white;
+    width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.head h1{
+    text-transform: uppercase;
+}
+.head h1 light{
+    color: var(--light_grey);
+}
+.head .info{
+    color: var(--dark_green);
+    font-size: 0.9rem;
+}
+.head .info .email{
+    font-weight: bold;
+}
+.head .info a{
+    font-weight: bold;
+    color: #317eb1;
+}
+.head-titles{
+    color: #c0392b;
+    margin-bottom: 20px;
+}
+.mt-20{
+    margin-top: 23px;
+}
+.startingpara{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.blocks{
+    margin: 10px;
+}
+.blocks .matter{
+    margin-left: 4px;
+    border-left: 2px dotted rgb(146,146,146);
+    padding: 4px;
+}
+.blocks .matter .date{
+    font-weight: bold;
+}
+.blocks .matter .jobt{
+    font-weight: bold;
+    color: var(--dark_green);
+}
+.blocks .matter .company{
+    font-weight: bold;
+    font-size: 13px;
+}
+.blocks .matter .discr{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.eduTbl{
+    text-align: left;
+}
+.eduTbl td{
+    width: 200px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.eduTbl th{
+    width: 200px;
+    background-color: var(--dark_green);
+    color: white;
+    padding: 3px;
+}
+.eduTbl .a td{
+    background-color: #cedacf;
+}
+.eduTbl .b td{
+    background-color: #e3ece4;
+}
+.skill .cont {
+    display: flex;
+  }
+  .skill .opt {
+    /* border: 1px solid; */
+    width: 48%;
+  }
+  .ls-c {
+    margin-left: 30px;
+    padding-left: 10px;
+  }
+  
